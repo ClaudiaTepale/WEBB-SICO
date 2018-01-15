@@ -1,0 +1,208 @@
+ /*COLORES*/
+morado cabeceras #3E176B
+			#290C5A
+
+magenta #900A3D
+
+lila #C998DB
+
+agua  #24D6C7
+
+menta  #0D8D8D 
+
+morado #986CC1
+
+
+body{
+	margin: 0;
+	font-family: arial;
+}
+
+/*CABECERA*/
+
+.cabecera{
+	background:#290C5A;
+	width: 100%;
+	height: 150px;
+	font-size: 45px;
+	color: white;
+	text-align: center;	
+	padding: 3%;
+	box-shadow: 0px 7px 0px #808B96;
+}
+h1{
+	margin: auto;
+	display: inline-block;
+	font-family: times new roman;
+	color: white;
+}
+
+h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+/*MENU*/
+.menu{
+	font-size: 20px;
+	text-align: center;
+	font-family: arial; 
+}
+
+.menu li{
+	display: inline;
+}
+
+.menu a{
+	margin: 3%;
+	padding: 3%;
+	height: 12%;
+	width: 12%;
+	font-weight: bold;
+	border-radius: 12px;
+	font-size: 30px;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+.fan{
+	background-color: #C998DB;
+	box-shadow: 7px 7px 0px #808B96;
+}
+.mus{
+	background-color: #24D6C7;
+	box-shadow: 7px 7px 0px #808B96;
+}
+.dra{
+	background-color: #986CC1;
+	box-shadow: 7px 7px 0px #808B96;
+}
+.cul{
+	background-color: #0D8D8D;
+	box-shadow: 7px 7px 0px #808B96;
+}
+
+.menu li:hover a{
+	background: #900A3D;
+}
+
+li.activo a{
+	background: #900A3D;
+}
+
+.cabecera a:hover{
+	color: #900A3D; 
+}
+
+
+/*CUERPO*/
+
+.cuerpo{
+	margin: 5%;
+	font-family: arial;
+}
+
+p{
+	text-align: justify;
+	font-size: 25px;
+}
+h5{
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.texto{
+
+}
+
+.ilustracion{
+	float: right;
+	display: inline-block;
+	width: 37%;
+	height: auto;	
+	margin:3%;
+}
+
+.ilustracion2{
+	float: left;
+	display: inline-block;
+	width: 37%;
+	height: auto;	
+	margin:3%;
+}
+
+.clear{
+	clear: both;
+}
+
+
+h6{
+	text-align: center;
+	font-size: 40px;
+	color:#900A3D;
+	text-shadow: 2px #808B96;  
+}
+
+/*FOOTER*/
+
+.footer{
+	background:#290C5A;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	padding: 2%;
+	box-shadow: 0px 0px 0px 7px #808B96;
+}
+
+
+.footer li{
+	display: inline-block;
+	padding: 1%;
+	margin: 1%;
+}
+
+.footer a{
+	padding: 5%;
+	text-decoration: none;
+	color: white;
+	background: #290C5A; 
+}
+
+
+.footer li a:hover{
+	background: #900A3D;
+}
+
+.icono{
+	height: 75px;
+	width: 75px;
+}
+
+
+@media only screen and (max-width: 786px) {
+	.cabecera{
+		font-size: 30px;
+	}
+
+	.ilustracion{
+		width: 100%;
+		height: auto;
+	}
+	.ilustracion2{
+		width: 100%;
+		height: auto;
+	}
+
+	.menu a{
+		width: 100%;
+		padding: 15px;
+		text-align: center;
+	}
+}
+
+
+
+
